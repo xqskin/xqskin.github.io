@@ -1,0 +1,13 @@
+import{_ as a,c as n,a3 as e,o as p}from"./chunks/framework.DgyBiAMx.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"skin/website/youget.md","filePath":"skin/website/youget.md","lastUpdated":1733458247000}'),t={name:"skin/website/youget.md"};function i(o,s,l,r,c,d){return p(),n("div",null,s[0]||(s[0]=[e(`<p>pip3 install --upgrade you-get</p><p>-vn参数表示不包含视频流 ffmpeg -i &quot;xxx.flv&quot; -vn xxx.mp3</p><p>you-get --format=dash-flv <a href="https://www.bilibili.com/video/BV1D54y1y7hT?spm_id_from=333.851.b_7265706f7274466972737431.10" target="_blank" rel="noreferrer">https://www.bilibili.com/video/BV1D54y1y7hT?spm_id_from=333.851.b_7265706f7274466972737431.10</a></p><p>python调用</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import sys</span></span>
+<span class="line"><span>from you_get import common as you_get       #导入you-get库</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>directory = r&#39;A:\\Document\\bilibili&#39;                   #设置下载目录</span></span>
+<span class="line"><span>url = &#39;https://www.bilibili.com/video/av9912938&#39;      #需要下载的视频地址</span></span>
+<span class="line"><span>sys.argv = [&#39;you-get&#39;,&#39;-o&#39;,directory,url]       #sys传递参数执行下载，就像在命令行一样；‘-o’后面跟保存目录。</span></span>
+<span class="line"><span>you_get.main()</span></span></code></pre></div><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>import sys</span></span>
+<span class="line"><span>from you_get import common as you_get       #导入you-get库</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>directory = r&#39;A:\\Document\\bilibili&#39;                         #设置下载目录</span></span>
+<span class="line"><span>url = &#39;https://www.bilibili.com/video/BV1dV411679q&#39;      #需要下载的视频地址</span></span>
+<span class="line"><span>sys.argv = [&#39;you-get&#39;,&#39;-l&#39;,&#39;-o&#39;,directory,url]       #sys传递参数执行下载，就像在命令行一样；‘-l’是指按列表下载，如果下载单个视频，去掉‘-l’即可；‘-o’后面跟保存目录。</span></span>
+<span class="line"><span>you_get.main()</span></span></code></pre></div><p>&quot;C:\\Program Files (x86)\\VMware\\VMware Workstation\\vmware-vdiskmanager.exe&quot; -r &quot;.\\Windows 11 x64-cl2.vmdk&quot; -t 0 &quot;.\\dan2.vmdk&quot;</p>`,7)]))}const g=a(t,[["render",i]]);export{m as __pageData,g as default};
