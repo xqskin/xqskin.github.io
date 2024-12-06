@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./chunks/framework.DtMx7FFi.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"skin/maya/插件分享.md","filePath":"skin/maya/插件分享.md","lastUpdated":1733464047000}'),s={name:"skin/maya/插件分享.md"};function n(r,o,c,_,i,d){return t(),e("div")}const f=a(s,[["render",n]]);export{p as __pageData,f as default};
