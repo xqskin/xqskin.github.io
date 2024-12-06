@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t}from"./chunks/framework.DtMx7FFi.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"skin/maya/绑定入门.md","filePath":"skin/maya/绑定入门.md","lastUpdated":1733464047000}'),s={name:"skin/maya/绑定入门.md"};function n(r,o,c,_,i,d){return t(),e("div")}const f=a(s,[["render",n]]);export{p as __pageData,f as default};
